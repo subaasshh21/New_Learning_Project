@@ -16,7 +16,10 @@ class Test_001_RegElements:
         self.GUIregistration.entername("Jhon")
         self.GUIregistration.enteremail("abc@gmail.com")
         self.GUIregistration.enterphone("1234567890")
-
+        self.GUIregistration.enteraddress("123 beekman lane")
+        self.GUIregistration.select_gender_male()
+        self.GUIregistration.select_days(["sunday","monday","tuesday","wednesday","thursday","friday","saturday"])
+        self.GUIregistration.select_country("Germany")
 
 
 
